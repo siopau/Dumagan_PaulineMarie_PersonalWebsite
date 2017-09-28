@@ -23,17 +23,9 @@
 		margin-left:0px;
 		position: fixed;
 		}
-	#logo{
-		
-		float:left;
-		margin-top:10px;
-		margin-left:50px;
-		
-	}
 	
 	#navbar {
-		position: fixed;
-		margin-left:550px;
+		margin-left:440px;
 		margin-top:-10px;
 		text-align: center;
 		opacity:0.5;
@@ -41,27 +33,27 @@
 	
 	#navbar ul{
 		width: 570px;
-		padding: 15px;
-		margin: 0px auto 0px auto;
+		padding: 4px;
+		margin: 0px 0px 0px 0px;
 		text-align: center;
 		}
 	#navbar li {
 		display: inline;
-		margin: 0px 3px;
+		margin: 0px 0px;
 		}
 	#navbar li a {
 		font-family:'Century Gothic';
 		font-size:20px;
 		float:left;
-		padding-top: 5px;
-		padding-left:30px;
+		padding-top: 20px;
+		padding-right:50px;
 		color: white;
 		text-decoration:none;
 		
 		}
 	#navbar li a:hover{
 		color:#ff6666;
-		font-size: 25px;
+		font-size: 23px;
 		}
 	#quote {
 		font-family:'Footlight MT Light';
@@ -71,10 +63,33 @@
 		color:#ffffff;
 		float:left;
 		width:600px;
-		margin-left: 235px;
+		margin-left: 200px;
 		margin-right:50px;
-		margin-top:350px;
+		margin-top:45px;
 		padding-right: 10px;
+		opacity:0.7;
+		}
+	#description{
+		font-family:'Footlight MT Light';
+		font-size: 25px;
+		word-spacing: 5px;
+		color:#ff6666;
+		float:left;
+		width:600px;
+		margin-left: 200px;
+		margin-right:50px;
+		margin-top:-50px;
+		padding-right: 10px;
+		opacity:0.4;
+	}
+	#name {
+		color:white;
+		width: 500px;
+		border: 2px solid #ffffff;
+		font-family: 'Copperplate Gothic Bold';
+		font-size:60px;
+		margin-top:-300px;
+		margin-left:250px;
 		}
 	
 </style>
@@ -82,15 +97,21 @@
 
 <body>
 	<div id="container">
+		<div id = "home">
 		<div id="navbar">
 			<ul>
 				<li> <a href="home.html"> HOME </a> </li>
-				<li> <a href="about.html"> ABOUT </a> </li>
+				<li> <a href="aboutme.html"> ABOUT </a> </li>
 				<li> <a href="contact.html"> CONTACT </a> </li>
 				<li> <a href="resume.html"> RESUME </a> </li>
 			</ul>
 		</div>
-		<blockquote id="quote"> Everything is possible. The imposible just take longer. -Dan Brown</blockquote>
+		<p id = "name"> PAULINE MARIE DUMAGAN </p>
+		<blockquote id="description"> A PERSONAL PORTFOLIO WEBSITE</blockquote>
+		<blockquote id="quote"> Everything is possible. The impossible just take longer. -Dan Brown</blockquote>
+		</div>
+		<div id ="about">
+		</div>
 	</div>
 </body>
 </html>

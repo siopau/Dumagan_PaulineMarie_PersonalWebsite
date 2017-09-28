@@ -1,4 +1,4 @@
-<DOCTYPE.html>
+<!DOCTYPE.html>
 <html>
 <head>
 	<title> sioPAU </title>
@@ -116,6 +116,19 @@
 		padding-right: 10px;
 		text-align: justify;
 		}
+	#contact{
+		font-family:'Century Gothic';
+		font-size: 15px;
+		word-spacing: 5px;
+		color:#ffffff;
+		text-align:left;
+	}
+	#nametextbox, #emailtextbox, #commenttextbox{
+		height:30px;
+		width: 370px;
+		font-family:'Century Gothic';
+		font-size: 15px;
+	}
 	
 </style>
 </head>
@@ -141,6 +154,20 @@
 		</div>
 		<div id ="whome">
 		<blockquote id="me"> Hi! While reading this I know you just get bored but somehow I would just like to introduce myself. You have no choice darling, so I'm Pauline Marie Dumagan a 3rd year student of the University Of Southeastern Philippines taking up Bachelor of Science in Information Technology. I do love books and anything that I could digest. So far I have little knowledge about C++, C#, Java, MySQL, HTML, CSS. Imagine I'm multilingual. <br><br><br> I'm always open to networking with other people and would accept challenges thrown my way in order to get exposure to new industires and different types of work. So, help me help you. Feel free to reach out at (+63)930713378 or shoot me a note at mariedumagan@gmail.com. <br><br><br> Have a nice day fella!</blockquote>
+		</div>
+		</div>
+		<div id = "contact">
+		<div id ="emailform">
+		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+			Name:<br>
+			<input type="text" name="name" id="nametextbox"><br><br>
+			E-mail:<br>
+			<input type="text" name="mail" id="emailtextbox"><br><br>
+			Comment:<br>
+			<textarea rows="4" cols="50" id ="commenttextbox"> </textarea><br><br> 
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+		</form>
 		</div>
 		</div>
 	</div>

@@ -127,7 +127,7 @@
 	#commenttextbox{
 		font-family:'Century Gothic';
 		font-size: 15px;
-		opacity:0.5;
+		opacity:0.7;
 	}
 	
 	#nametextbox, #emailtextbox{
@@ -135,7 +135,17 @@
 		width: 370px;
 		font-family:'Century Gothic';
 		font-size: 15px;
-		opacity:0.5;
+		opacity:0.7;
+	}
+	#sendButton{
+		padding: 10px 24px;
+		border-radius: 12px;
+		background-color: white; 
+		color: black; 
+		border: 2px solid #ff6666;
+		font-family:'Century Gothic';
+		font-size: 15px;
+		
 	}
 	
 </style>
@@ -165,6 +175,7 @@
 		</div>
 		</div>
 		<div id = "contact">
+		
 		<div id ="emailform">
 		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 			Name:<br>
@@ -173,8 +184,7 @@
 			<input type="text" name="mail" id="emailtextbox"><br><br>
 			Message:<br>
 			<textarea rows="4" cols="50" id ="commenttextbox"> </textarea><br><br> 
-			<input type="submit" value="Send">
-			<input type="reset" value="Reset">
+			<button id ="sendButton">Send</button>
 		</form>
 		</div>
 		</div>
